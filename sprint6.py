@@ -4,6 +4,8 @@ import streamlit as st
         
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
+st.title("Comportamiento de los precios de marcas de automóviles")
+
 hist_button = st.button('Construir histograma') # crear un botón
 disp_button = st.button('Diagrama de dispersión odometer vs price')
         
